@@ -1,0 +1,77 @@
+.bg-yellow{
+    background-color:#FFC017;
+}
+
+.border-bottom-dark{
+    border-bottom: 1px solid #414141;
+}
+
+.border-bottom-grey{
+    border-bottom: 1px solid #dddddd
+}
+
+.footer-text-font{
+    font-size: 14px;
+    color: rgb(117, 117, 117);
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body{
+    font-family: 'Gentium Book Plus', serif;
+}
+
+.dark{
+    color: black;
+}
+.discover{
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.start-reading{
+    font-size: 20px;
+    width: 213px;
+    padding: 7px 20px 9px;
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 99em;
+    border-color: rgb(25, 25, 25);
+    background: rgb(25, 25, 25);
+    color: white;
+    font-weight: 400;
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.get-Started{
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 99em;
+    border-color: rgb(25, 25, 25);
+    background: rgb(25, 25, 25);
+    padding: 7px 16px 9px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.aside-buttons > li {
+    margin-bottom: 10px;
+}
+
+.number{
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: 0px;
+    color: rgb(230, 230, 230);
+    font-weight: 700;
+}
+
+.number-container{
+    margin-bottom: 24px;
+    align-items: flex-start;
+    height: 100%;
+    width: 100%;
+    font-weight: 400;
+
+}
