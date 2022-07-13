@@ -6,3 +6,4 @@
 * Gerekli kayıt işlemleri LocalStorage üzerinde yapılmakta ve aktif bir veritabanı gerektirmemektedir.
 * Basit kullanım ve arayüze sahiptir.
 * 3 temel filtreleme sunar ['Tümü' / 'Yapılacaklar' / 'Yapılanlar']
+* Chrome , Mozilla ile sorunsuz çalışmaktadır.
