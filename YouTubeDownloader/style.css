@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace;
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: wheat;
+    padding:20px 60px;
+}
+
+header h1{
+    color: black;
+    border-bottom: 3px solid #ee4b4b;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a{
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+    color: #444;
+    border-bottom: 3px solid #ee4b4b;
+}
+
+section{
+    width: 50%;
+    height: 40%;
+    background-color: aqua;
+/*    margin-top: 10px;
+    margin-left: 10px;*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border:2px solid #666;
+}
+
+section h1{
+    color: #ee4b4b;
+    padding: 30px;
+    margin-bottom: 30px;
+    font-size: 35px;
+}
+
+
+section .link-container, .format-container, .button-container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    width: 50%;
+}
+
+section .link-container label, .format-container label{
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #444;
+}
+
+section .link-container input, .format-container select{
+    outline: none;
+    height: 35px;
+    border-radius: 5px;
+    padding: 0 10px;
+    border:2px solid #666;
+    font-size: 14px;
+}
+
+
+section .button-container button{
+    height: 50px;
+    border-radius: 5px;
+    font-size: 20px;
+    border:none;
+    color: #fff;
+    background-color:#ee4b4b ;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
